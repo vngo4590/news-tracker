@@ -34,7 +34,7 @@
 export default {
   name: "FeaturedNews",
   props: {
-    newsList: Array,
+    newsList: Array
   },
   data() {
     return {
@@ -48,18 +48,11 @@ export default {
     },
     onSlideEnd(slide) {
       this.sliding = false;
-    },
-    getDateString(dateStr) {
-        if (!dateStr) {
-            return '';
-        }
-        var date = new Date(dateStr);
-        return date.getDay() + '/' + date.getMonth() + '/' + date.getFullYear();
     }
   },
-  async created() {
-    
-  },
+  created() {
+    console.log(this.newsList);
+  }
 };
 </script>
 
