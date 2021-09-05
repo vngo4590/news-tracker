@@ -12,7 +12,7 @@
       <em><p>{{newsObj.byline}} on {{getDateString(newsObj.created_date)}}</p></em> 
     </b-card-text>
 
-    <b-button v-bind:href="newsObj.url" variant="primary">Go</b-button>
+    <b-button v-bind:href="newsObj.url" variant="primary" target="_blank">Go</b-button>
   </b-card>
 </template>
 
