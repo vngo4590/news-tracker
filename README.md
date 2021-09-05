@@ -1,5 +1,5 @@
 # news-tracker
-Hello 
+Hi! This project is my new project on VueJs! It is a news tracker application, and I am currently working on it!
 ## Project setup
 ```
 npm install
